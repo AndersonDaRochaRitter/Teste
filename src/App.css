@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+/*Fundo header*/
+.App-header {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background: #959691;
+  
+}
+
+/*Header*/
+.App-header>img {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  left: 10px;
+  top: 5px;
+}
+
+@font-face {
+  font-family: 'Faustina';
+  src: local('Faustina'), url(./fonts/Faustina-Regular.ttf) format('truetype');
+}
+
+/*Nome do Usuario*/
+#user {
+  position: absolute;
+  width: 204px;
+  height: 23px;
+  left: 50px;
+  top: 5px;
+
+  font-family: 'Faustina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*Header*/
+#topico1 {
+  position: absolute;
+  height: 23px;
+  left: 1300px;
+  top: 5px;
+
+  font-family: 'Faustina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/*Header*/
+#topico2 {
+  position: absolute;
+  height: 23px;
+  left: 1200px;
+  top: 5px;
+
+  font-family: 'Faustina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/*Header*/
+#topico3 {
+  position: absolute;
+  height: 23px;
+  left: 1100px;
+  top: 5px;
+
+  font-family: 'Faustina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+#container{
+  overflow: hidden;
+}
