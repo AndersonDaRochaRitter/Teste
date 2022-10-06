@@ -50,7 +50,7 @@
   height: 23px;
   left: 1300px;
   top: 5px;
-
+  cursor: pointer;
   font-family: 'Faustina';
   font-style: normal;
   font-weight: 400;
@@ -74,7 +74,7 @@
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-
+  cursor: pointer;
   color: #FFFFFF;
 }
 
@@ -91,9 +91,19 @@
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-
+  cursor: pointer;
   color: #FFFFFF;
 }
-#container{
-  overflow: hidden;
+/*hover no lugar de active- mudar cor titulo quando passar por cima*/
+#topico1.active:active{
+  color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+#topico2.active:active{
+  color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+#topico3.active:active{
+  color: rgb(75, 74, 74);
+  cursor: pointer;
 }

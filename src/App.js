@@ -10,9 +10,9 @@ function App() {
       <header className="App-header">
         <img src={minhaImagem}/>
         <p id='user'>Anderson da Rocha Ritter</p>
-        <p id='topico1' onClick={EventoTopico1}>Topico 1</p>
-        <p id='topico2' onClick={EventoTopico2}>Topico 2</p>
-        <p id='topico3' onClick={EventoTopico3}>Topico 3</p>
+        <p className="active" id='topico1' onClick={EventoTopico1}>Topico 1</p>
+        <p className="active" id='topico2' onClick={EventoTopico2}>Topico 2</p>
+        <p className="active" id='topico3' onClick={EventoTopico3}>Topico 3</p>
       </header>
 
       /*Decoração*/
